@@ -15,6 +15,13 @@ namespace WindowsFormsApp1
         public Form1()
         {
             InitializeComponent();
+            int i = 3;
+            richTextBox1.AppendText("" + i);
+        }
+
+        private void richTextBox1_TextChanged(object sender, EventArgs e)
+        {
+            
         }
     }
 }
